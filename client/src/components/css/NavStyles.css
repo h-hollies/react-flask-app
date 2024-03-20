@@ -1,0 +1,41 @@
+.link-brand {
+    text-decoration: none;
+    color: #bebebe;
+    font-size: 24px;
+    padding: 8px;
+}
+
+.link {
+    text-decoration: none;
+    color: #bebebe;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.link:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #0588f3;
+    text-underline-offset: 6px;
+    color: #bebebe;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.link:focus{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #05f311;
+    text-underline-offset: 6px;
+    color: #bebebe;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.nav-container {
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+}
