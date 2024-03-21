@@ -84,7 +84,9 @@
                     return app.send_static_file('index.html')
 
 ## Send App to Github
+    - create repository
+    - git init
     - remove the build folder from .gitignore
     - git add --all
     - git commit -m "heroku-commit"
-    - git push
+    - git push --set-upstream https://github.com/h-hollies/<repository-name> main
