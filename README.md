@@ -84,8 +84,12 @@
                     return app.send_static_file('index.html')
 
 ## Send App to Github
+<<<<<<< HEAD
     - create repository
     - git init
+=======
+    - create github repository
+>>>>>>> dc1c28ab2e19582070f2580c97947c88a804bf46
     - remove the build folder from .gitignore
     - git add --all
     - git commit -m "heroku-commit"
