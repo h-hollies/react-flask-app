@@ -7,6 +7,11 @@ name = "pypi"
 flask-cors = "*"
 gunicorn = "*"
 flask-restx = "*"
+flask = "*"
+flask-sqlalchemy = "*"
+flask-jwt-extended = "*"
+python-decouple = "*"
+flask-migrate = "*"
 
 [dev-packages]
 
